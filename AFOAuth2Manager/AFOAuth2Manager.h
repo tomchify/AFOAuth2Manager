@@ -192,7 +192,7 @@
 /**
  The OAuth expiration
  */
-@property (readwrite, nonatomic, copy) NSDate *expiration;
+@property (readonly, nonatomic, copy) NSDate *expiration;
 
 /**
  Whether the OAuth credentials are expired.
